@@ -59,7 +59,6 @@ int main() // in C you usually write a main that takes no argument as main(void)
   do {
     cout << "Enter line: ";
     getline(std::cin, input); // Get a line from cin and put it in the input string
-    if (input.length() == 0) break;
     lineFile.AddString(input); // Add it to the lineFile
   } while (input.length() != 0); // While input string has a length above zero, read in lines. when it hits a line of zero, we're done
 
