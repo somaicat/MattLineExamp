@@ -9,7 +9,7 @@ public:
 LineFile(const std::string &filename = std::string("out.txt")) : _filename(filename) { }
 
 // Add a string to the vector
-void AddString(const std::string string) {
+void AddString(const std::string &string) {
   _strings.push_back(string);
 }
 
