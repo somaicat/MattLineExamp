@@ -35,7 +35,7 @@ void PrintStrings() const {
   }
 }
 
-const std::string GetFilename() { return _filename; } // This function is called a getter, in c++, you often don't want to provide direct access to members of a class, it is more flexible and robust to instead provide access to members of a class via getter and setter methods like this one
+const std::string GetFilename() const { return _filename; } // This function is called a getter function. In OOP development you often don't want to provide direct access to members of a class, it is more flexible and robust to instead provide access to members of a class via getter and setter methods like this one
 
 private:
 std::vector<std::string> _strings;
