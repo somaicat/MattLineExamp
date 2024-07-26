@@ -39,7 +39,7 @@ const std::string GetFilename() const { return _filename; } // This function is 
 
 private:
 std::vector<std::string> _strings;
-const std::string &_filename;
+const std::string _filename;
 };
 
 int main() // in C you usually write a main that takes no argument as main(void), for obscure technical reasons you don't need to do that in c++, although you can if you prefer to as a matter of style.
